@@ -1,0 +1,53 @@
+*{margin: 0; padding: 0;box-sizing: border-box;}
+    body{
+        background-color: azure;
+
+    }
+    form{
+        background-color: white;
+        max-width: 500px;
+        width: 70%;
+        padding: 20px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    form h3{
+        text-align: center;
+        color: rgb(77, 162, 219);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        font-size: 300%;
+    }
+
+    form input[type="text"]{
+        width: 100%;
+        height: 40px;
+        border: 1px solid black;
+        padding-left: 20px;
+        margin: 15px 0;
+        border-radius: 20px;
+    }
+
+    form input[type="password"]{
+        width: 100%;
+        height: 40px;
+        border: 1px solid black;
+        padding-left: 20px;
+        margin: 15px 0;
+        border-radius: 20px;
+        
+    }
+    form input[type="submit"]{
+        width: 100%;
+        height: 40px;
+        border: 1px solid black;
+        background-color:azure;
+        border-radius: 20px;
+    }
+    .botao{
+        width: 40%;    
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 15px;
+    }
