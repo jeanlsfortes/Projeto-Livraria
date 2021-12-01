@@ -1,4 +1,3 @@
-/*Relacionado ao cadastro e login  */
 *{margin: 0; padding: 0;box-sizing: border-box;}
     body{
         background-color: azure;
@@ -52,45 +51,3 @@
         border-radius: 10px;
         margin: 15px;
     }
-
-/*Relacionado a página inicial  */
-/*id
-parte do menu
-*/
-
-#areaCabecalho{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(77, 162, 219);
-    width: 100%;
-    padding: 20px;
-    font-size: 100%;
-    text-align: center;
-}
-
-#areaLogo, #areaMenu{
-    padding: 10px;
-    
-}
-a:link,a:visited{
-    color: white;
-    padding: 8px 12px;
-}
-a:hover{
-    color:black;
-}
-
-
-/*formatacoes gerais*/
-h1{
-    color: white;
-    font-size: 2.5em;
-
-}
-
-.black{
-    color: black;
-}
-
-a{
-    text-decoration: none;
-}
